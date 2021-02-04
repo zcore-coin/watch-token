@@ -39,7 +39,7 @@
         </b-link>
         <b-link :href="token.etherscanLink" target="_blank" class="btn btn-primary my-2">
           <b-icon-arrow-up-right-circle-fill></b-icon-arrow-up-right-circle-fill>
-          View on Etherscan
+          View on BscScan
         </b-link>
         <b-link @click="shareToken" class="btn btn-info my-2 float-right">
           <b-icon-share></b-icon-share>

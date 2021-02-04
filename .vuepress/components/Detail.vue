@@ -41,7 +41,7 @@
                     class="text-secondary"
                     :href="this.network.current.etherscanLink + '/token/' + token.address"
                     target="_blank">
-            View on Etherscan
+            View on BscScan
           </b-button>
         </div>
       </b-card>
