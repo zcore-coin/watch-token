@@ -14,7 +14,7 @@ export default {
         default: config.defaultNetwork,
         current: null,
         map: {
-          1: 'mainnet',
+          56: 'mainnet',
           3: 'ropsten',
           4: 'rinkeby',
           42: 'kovan',
@@ -22,10 +22,10 @@ export default {
         },
         list: {
           mainnet: {
-            web3Provider: `https://mainnet.infura.io/v3/${config.infuraProjectId}`,
-            etherscanLink: 'https://etherscan.io',
-            id: 1,
-            name: 'Main Ethereum Network',
+            web3Provider: 'https://bsc-dataseed.binance.org',
+            etherscanLink: 'https://bscscan.com/',
+            id: 56,
+            name: 'Binance Smart Chain',
           },
           ropsten: {
             web3Provider: `https://ropsten.infura.io/v3/${config.infuraProjectId}`,
